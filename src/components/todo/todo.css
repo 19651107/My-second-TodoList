@@ -1,0 +1,30 @@
+.todoList__name{
+    font-size: 19px;
+    margin-bottom: 0;
+    color: gold;
+    word-break: break-word;
+    display: flex;
+    column-gap: 96px;
+    align-items: center;
+    width: 100%;
+}
+.todoList__name span{
+     font-size: 15px;
+    white-space: nowrap;
+
+}
+.todoList__name.active{
+    color: green;
+    text-decoration: line-through;
+    text-decoration-color: black;
+}
+.todoList__name.Active{
+    color: orangered;
+    position: relative;
+}
+.todoList__name.Active::before{
+    content: '!';
+    position: absolute;
+    top: 0;
+    left: -6px;
+}

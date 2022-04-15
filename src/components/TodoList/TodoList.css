@@ -1,0 +1,25 @@
+.todoList{
+    padding-left: 0;
+}
+.todoList__task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+.todoList__btns{
+    display: flex;
+    column-gap: 10px;
+}
+.todoList__btn{
+    width: 70px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.todoList__name{
+    margin-right: 30px;
+}
+.todoList__input{
+    padding-left: 10px;
+}
